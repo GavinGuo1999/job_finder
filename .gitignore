@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Generated outputs
+outputs/runs/
+
+# Editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
