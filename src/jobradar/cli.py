@@ -6,11 +6,13 @@ import argparse
 
 from jobradar import __version__
 
+DESCRIPTION = "Local CSV-first job opportunity radar."
+
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="jobradar",
-        description="Local CSV-first job opportunity radar.",
+        description=DESCRIPTION,
     )
     parser.add_argument(
         "--version",
@@ -28,4 +30,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

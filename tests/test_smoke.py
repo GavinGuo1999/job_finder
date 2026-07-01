@@ -1,5 +1,5 @@
 from jobradar import __version__
-from jobradar.cli import build_parser, main
+from jobradar.cli import DESCRIPTION, build_parser, main
 
 
 def test_version_is_defined() -> None:
@@ -15,9 +15,8 @@ def test_cli_help_smoke(capsys) -> None:
         assert exc.code == 0
 
     captured = capsys.readouterr()
-    assert "Local CSV-first job opportunity radar." in captured.out
+    assert DESCRIPTION in captured.out
 
 
 def test_cli_main_smoke() -> None:
     assert main([]) == 0
-

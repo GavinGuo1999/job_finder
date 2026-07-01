@@ -4,6 +4,8 @@ Job Radar 是一个本地自用的岗位机会雷达系统。第一阶段采用 
 
 当前处于 Phase 1：项目骨架阶段。
 
+本仓库当前只提供最小可运行骨架，不包含真实采集、评分或数据库功能。
+
 ## 当前范围
 
 已包含：
@@ -44,6 +46,15 @@ pytest
 ruff check .
 ```
 
+Phase 1 验收命令：
+
+```powershell
+python -m pip install -e ".[dev]"
+python -m jobradar.cli --help
+pytest
+ruff check .
+```
+
 ## 项目结构
 
 ```text
@@ -58,4 +69,3 @@ outputs/runs/
 ```
 
 `outputs/runs/` 用于后续运行输出，并被 `.gitignore` 忽略。
-
