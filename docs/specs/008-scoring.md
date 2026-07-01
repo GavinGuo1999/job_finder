@@ -46,9 +46,12 @@ data/config/score_components.csv
 * `score__skill`
 * `score__risk`
 * `score__total`
+* `score__recommendation`
 * `score__reasons`
 
 ## 总分公式
+
+第一阶段采用加法评分，再将总分 clamp 到 0 到 100。不要把各组件按百分比加权平均，也不要同时混用“加法评分”和“百分比权重评分”。
 
 ```text
 raw_total =
@@ -63,6 +66,8 @@ score__total = clamp(round(raw_total), 0, 100)
 ```
 
 风险分为 0 或负数。第一阶段不做硬过滤，除非来源策略禁止访问。
+
+如果配置表中保留 `score_components.weight` 字段，Phase 1 不应把它解释为百分比权重；它只能作为未来扩展或人工备注参考。Phase 1 的实际排序必须以上述加法公式为准。
 
 ## 默认地区分
 
@@ -190,4 +195,3 @@ location:上海 +25; role:AI应用 +30; language:英语优先 +12; risk:外包 -
 * 风险分累加但不低于 -40。
 * 总分 clamp 到 0 到 100。
 * `score__reasons` 包含主要加分和扣分来源。
-

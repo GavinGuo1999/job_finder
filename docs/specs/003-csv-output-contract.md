@@ -127,6 +127,9 @@ CSV 格式：
 | 71 | `debug__raw_hash` | string | 原始数据 hash。 |
 | 72 | `debug__missing_fields` | string | 缺失字段，分号分隔。 |
 | 73 | `debug__notes` | string | 调试备注。 |
+| 74 | `job__apply_url` | url | 直接投递 URL；未知时为空。为兼容性追加在表头末尾。 |
+| 75 | `score__recommendation` | enum | 推荐档位，如 `strong_match`、`match`、`maybe`、`low_priority`。 |
+| 76 | `debug__parse_confidence` | number | 解析置信度，范围 0 到 1；未知时为空。 |
 
 ### 排序规则
 
@@ -163,4 +166,3 @@ CSV 格式：
 * 排序测试。
 * 空值不输出 `None/null/NaN`。
 * `score__total` 范围为 0 到 100。
-
