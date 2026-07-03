@@ -9,6 +9,7 @@ description = "Local CSV-first job opportunity radar."
 readme = "README.md"
 requires-python = ">=3.11"
 # Phase 1 intentionally has no runtime dependencies.
+# Phase 2 keeps the scoring loop local and fixture-driven.
 dependencies = []
 
 [project.optional-dependencies]

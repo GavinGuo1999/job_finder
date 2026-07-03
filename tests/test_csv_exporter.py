@@ -6,6 +6,7 @@ from jobradar.config import load_scoring_config
 from jobradar.exporter import CSV_HEADER, export_jobs_csv
 from jobradar.scoring import score_jobs
 
+# CSV exporter tests verify sorting, empty output, and escaping.
 
 def test_csv_exporter_writes_sorted_jobs(tmp_path: Path) -> None:
     config = load_scoring_config(Path("data/config"))

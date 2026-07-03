@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+# Config files are local UTF-8 CSV files; no network access happens here.
 import csv
 from dataclasses import dataclass
 from pathlib import Path

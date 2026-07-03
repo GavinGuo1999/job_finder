@@ -1,11 +1,11 @@
-role_category,keywords,score,explanation
-ai_llm_agent_rag,AI;LLM;Agent;RAG;GenAI;Copilot,30,AI 应用/LLM/Agent/RAG
-enterprise_erp,ERP;SAP;Odoo;enterprise system;信息化,28,企业信息化/ERP/SAP/Odoo
-bi_data,BI;analytics;data analyst;data engineer;SQL;dashboard;数据分析;数据工程,25,BI/数据分析/数据工程
-solution_architect,solution architect;technical consultant;pre-sales engineer;解决方案架构师;技术顾问,23,Solution Architect/Technical Consultant
-python_api_integration,Python;API;integration;automation;自动化;集成,21,Python/API/Integration/Automation
-digital_product_pm,digital product;product manager;project manager;数字化产品;项目管理,17,数字化产品/项目管理
-it_support,IT support;system administrator;IT 系统;运维,12,IT 系统/IT Support
-software_engineering,software engineer;backend;frontend;软件开发,10,普通软件开发
-business_operations,operations;business operations;业务运营,5,业务运营
-sales_customer_service,sales;account executive;customer service;客服;销售,2,销售/客服
+role_category,keywords,score,explanation,notes
+ai_llm_agent_rag,AI;LLM;Agent;RAG;GenAI;Copilot,30,AI 应用/LLM/Agent/RAG,phase2-lf
+enterprise_erp,ERP;SAP;Odoo;enterprise system;信息化,28,企业信息化/ERP/SAP/Odoo,phase2-lf
+bi_data,BI;analytics;data analyst;data engineer;SQL;dashboard;数据分析;数据工程,25,BI/数据分析/数据工程,phase2-lf
+solution_architect,solution architect;technical consultant;pre-sales engineer;解决方案架构师;技术顾问,23,Solution Architect/Technical Consultant,phase2-lf
+python_api_integration,Python;API;integration;automation;自动化;集成,21,Python/API/Integration/Automation,phase2-lf
+digital_product_pm,digital product;product manager;project manager;数字化产品;项目管理,17,数字化产品/项目管理,phase2-lf
+it_support,IT support;system administrator;IT 系统;运维,12,IT 系统/IT Support,phase2-lf
+software_engineering,software engineer;backend;frontend;软件开发,10,普通软件开发,phase2-lf
+business_operations,operations;business operations;业务运营,5,业务运营,phase2-lf
+sales_customer_service,sales;account executive;customer service;客服;销售,2,销售/客服,phase2-lf

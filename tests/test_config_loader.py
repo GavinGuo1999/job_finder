@@ -2,6 +2,7 @@ from pathlib import Path
 
 from jobradar.config import load_scoring_config
 
+# Config loader tests use only local CSV files.
 
 def test_load_scoring_config() -> None:
     config = load_scoring_config(Path("data/config"))

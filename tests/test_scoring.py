@@ -11,6 +11,7 @@ from jobradar.scoring.engine import (
     score_skills,
 )
 
+# Scoring tests cover the additive Phase 2 rules.
 
 def _config():
     return load_scoring_config(Path("data/config"))

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+# The engine is intentionally pure: no IO, network, database, or crawler work.
 from collections.abc import Mapping
 from dataclasses import dataclass
 

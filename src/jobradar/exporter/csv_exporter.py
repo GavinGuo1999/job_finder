@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+# CSV writing relies on the standard library so quoting stays RFC-compatible.
 import csv
 from datetime import datetime
 from pathlib import Path

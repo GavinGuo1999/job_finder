@@ -1,5 +1,6 @@
 """Configuration loading for Job Radar."""
 
+# Public imports kept explicit for tests and CLI wiring.
 from jobradar.config.loader import (
     KeywordRule,
     ScoringConfig,

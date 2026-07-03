@@ -9,6 +9,7 @@ from jobradar.config import load_scoring_config
 from jobradar.exporter import export_jobs_csv, read_fixture_jobs
 from jobradar.scoring import score_jobs
 
+# Phase 2 exposes only local fixture scoring; it does not crawl websites.
 DESCRIPTION = "Local CSV-first job opportunity radar."
 
 

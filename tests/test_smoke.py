@@ -1,6 +1,7 @@
 from jobradar import __version__
 from jobradar.cli import DESCRIPTION, build_parser, main
 
+# Smoke tests verify the Phase 1/2 CLI remains importable.
 
 def test_version_is_defined() -> None:
     assert __version__
