@@ -32,18 +32,23 @@ def build_parser() -> argparse.ArgumentParser:
     score_fixtures.add_argument("--input", required=True, help="Input fixture jobs CSV.")
     score_fixtures.add_argument("--config", required=True, help="Configuration CSV directory.")
     score_fixtures.add_argument("--output", required=True, help="Output runs directory.")
+    score_fixtures.set_defaults(handler=_run_score_fixtures)
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
-    if args.command == "score-fixtures":
-        config = load_scoring_config(args.config)
-        jobs = read_fixture_jobs(args.input)
-        output_path = export_jobs_csv(score_jobs(jobs, config), args.output)
-        print(output_path)
+    if hasattr(args, "handler"):
+        args.handler(args)
     return 0
+
+
+def _run_score_fixtures(args: argparse.Namespace) -> None:
+    config = load_scoring_config(args.config)
+    jobs = read_fixture_jobs(args.input)
+    output_path = export_jobs_csv(score_jobs(jobs, config), args.output)
+    print(output_path)
 
 
 if __name__ == "__main__":
