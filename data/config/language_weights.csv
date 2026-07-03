@@ -1,0 +1,7 @@
+language_category,keywords,score,explanation
+english_chinese,English and Chinese;英语和中文;中英文;English/Chinese,15,英语和中文环境
+english_required,English required;fluent English;business English;英语必需;英文流利,14,英语必需
+english_preferred,English preferred;English is a plus;英语优先;英语加分,12,英语优先
+unknown,unknown;未注明;不限,7,语言要求未知
+chinese_only,Chinese only;只中文;中文即可,4,只中文
+unsupported_language_required,Japanese required;German required;Korean required;日语必须;德语必须;韩语必须,0,用户不会的小语种硬性要求

@@ -1,0 +1,7 @@
+skill_category,keywords,points,max_total,explanation
+ai,LLM;Agent;RAG;GenAI;prompt;Copilot,8,20,AI/LLM/Agent/RAG 技能
+erp,ERP;SAP;Odoo;enterprise system;信息化,7,20,ERP/SAP/Odoo/信息化技能
+bi,BI;SQL;dashboard;data pipeline;analytics,6,20,BI/数据技能
+python_api,Python;REST API;FastAPI;API,5,20,Python/API 技能
+integration,integration;workflow;automation;ETL;集成;自动化,5,20,Integration/Automation 技能
+cloud_saas,SaaS;cloud;AWS;Azure;GCP,3,20,Cloud/SaaS 技能

@@ -1,0 +1,9 @@
+location_category,patterns,score,explanation
+shanghai,上海;Shanghai,25,上海岗位优先
+jiangzhehu,苏州;杭州;南京;无锡;宁波;江苏;浙江;江浙沪,22,江浙沪岗位优先
+beijing_guangzhou_shenzhen,北京;Beijing;广州;Guangzhou;深圳;Shenzhen,18,北上广深岗位
+mainland_china_other,中国;China;成都;武汉;西安;厦门;天津;重庆,14,中国大陆其他城市
+singapore,新加坡;Singapore,12,新加坡机会
+asia_other,Asia;APAC;Tokyo;Seoul;Japan;Korea,8,亚洲其他地区
+western_other,United States;USA;US;Europe;EU;Canada;Australia;UK,5,欧美澳加等其他地区
+unknown,unknown;未知;remote,2,地点未知

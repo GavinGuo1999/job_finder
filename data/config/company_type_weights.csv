@@ -1,0 +1,11 @@
+company_type,score,explanation
+foreign_mnc,20,外资跨国公司
+foreign_tech_saas,19,外资科技或 SaaS 公司
+joint_venture,17,合资企业
+china_global,16,中国出海公司
+china_bigtech_ai,15,中国大厂或 AI 公司
+china_quality_enterprise_it,14,中国优质甲方信息化岗位
+private_company,8,普通民企
+state_owned,6,国企
+outsourcing_staffing,2,外包或派遣供应商
+unknown,5,公司性质未知

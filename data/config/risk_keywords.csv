@@ -1,0 +1,8 @@
+risk_flag,keywords,penalty,explanation
+outsourcing,outsourcing;vendor;外包,-12,疑似外包岗位
+staffing,staffing;contractor dispatch;派遣,-15,疑似派遣岗位
+sales_heavy,cold call;quota;纯销售;电话销售,-10,纯销售倾向
+customer_service_low_relevance,customer service;call center;客服,-8,客服低相关
+language_barrier,Japanese required;German required;日语必须;德语必须,-12,小语种硬门槛
+location_mismatch,US only;EU only;work authorization required,-10,地区不适配
+low_relevance,warehouse;retail;finance accountant;仓库;零售,-15,岗位低相关
